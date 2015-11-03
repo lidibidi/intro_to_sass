@@ -10,22 +10,23 @@ $byline: .75rem; // 75%
 $headline-margin: 5px;
 
 //font variables
-$sans-serif: 'Ubunto', sans-serif;
-$serif: 'Roboto Slab', serif;
+$sans-serif:'Ubunto', sans-serif;
+$serif:'Roboto Slab', serif;
 
 body {
   font-size: 16px;
-  font-family: serif;
+  font-family: $sans-serif;
 }
 
 h1{
   font-size: $headline-text;
   margin: $headline-margin;
+  font-family: $sans-serif;
 }
 
 p{
   font-size: $body-text;
-  font-family: sans-serif;
+  font-family: $sans-serif;
 }
 
 nav li{
